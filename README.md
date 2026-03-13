@@ -21,6 +21,10 @@ const inventory = [
     { name: "Bearing", quantity: 2 },
     { name: "Filter", quantity: 5 }
 ];'''
+
+
+
+
 summarizeWorkOrders(workOrders)
 
 This function analyzes a list of work orders and returns a summary of their status and average labor hours.
