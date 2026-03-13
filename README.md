@@ -14,13 +14,13 @@ This function checks an inventory list and returns the names of items whose quan
 - Finally, it returns an array containing only the names of the low-stock items.
 
 ### Example Input
-```javascript
+'''javascript
 const inventory = [
     { name: "Pump Seal", quantity: 3 },
     { name: "Valve", quantity: 10 },
     { name: "Bearing", quantity: 2 },
     { name: "Filter", quantity: 5 }
-];
+];'''
 summarizeWorkOrders(workOrders)
 
 This function analyzes a list of work orders and returns a summary of their status and average labor hours.
