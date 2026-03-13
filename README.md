@@ -25,28 +25,19 @@ const inventory = [
 
 
 
-summarizeWorkOrders(workOrders)
+# summarizeWorkOrders(workOrders)
 
 This function analyzes a list of work orders and returns a summary of their status and average labor hours.
 
-How it Works
+### How it Works
 
-The function accepts an array of work order objects.
-
-Each work order includes an id, status, and labourHours.
-
-It loops through all work orders and counts:
-
-Total number of work orders
-
-Number of OPEN work orders
-
-Number of CLOSED work orders
-
-At the same time, it adds up the total labor hours.
-
-After processing all entries, it calculates the average labor hours.
-
-The average is rounded to one decimal place using toFixed(1).
-
-The function returns a summary object containing the calculated statistics
+- The function accepts an array of work order objects.
+- Each work order includes an id, status, and labourHours.
+- It loops through all work orders and counts:
+- Total number of work orders
+- Number of OPEN work orders
+- Number of CLOSED work orders
+- At the same time, it adds up the total labor hours.
+- After processing all entries, it calculates the average labor hours.
+- The average is rounded to one decimal place using toFixed(1).
+- The function returns a summary object containing the calculated statistics
